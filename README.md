@@ -1,9 +1,8 @@
-# XBOX 360 joystick converter/emulator/thingie for older PC's
+# Dual Shock 4 to D-Sub 15 pin Game Port using Arduino
 
-This project was created from an idea Renaud Bedard had a while ago while rebuilding his 486 DOS PC.
+Not working at all right now, but aims to be a signal converter from a USB DualShock 4 to PC Gameport.
 
-Since USB Host chips have gone down in price, and using arduino as the glue, a MCP4231 chip was chosen to emulate a potentiometer.
-
-Schematics and other details to come.... SOON
-
-
+Using :
+- Arduino Uno
+- USB Host Shield 2.0 : https://github.com/felis/USB_Host_Shield_2.0
+- MCP4231 dual digital potentiometer : http://ww1.microchip.com/downloads/en/DeviceDoc/22060b.pdf
